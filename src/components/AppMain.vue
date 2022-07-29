@@ -10,7 +10,7 @@
         flex-wrap
       "
     >
-      <DiscCard v-for="disc in discs" :key="disc.title" :disc="disc" />
+      <DiscCard v-for="disc in filteredDiscs" :key="disc.title" :disc="disc" />
     </div>
   </main>
 </template>
@@ -23,7 +23,7 @@ export default {
     DiscCard,
   },
   props: {
-    discs: Array,
+    filteredDiscs: Array,
   },
 };
 </script>
