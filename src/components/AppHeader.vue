@@ -16,7 +16,7 @@
 import BaseSelect from "./BaseSelect.vue";
 
 export default {
-  name: "TheHeader",
+  name: "AppHeader",
   components: { BaseSelect },
   props: {
     genresList: Array,

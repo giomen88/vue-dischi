@@ -2,7 +2,7 @@
   <div>
     <AppHeader :genres-list="genresList" @genre-change="setSelectedGenre" />
 
-    <AppMain :discs="filteredDiscs" />
+    <AppMain :filteredDiscs="filteredDiscs" />
   </div>
 </template>
 

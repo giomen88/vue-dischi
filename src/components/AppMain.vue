@@ -5,7 +5,7 @@
         container
         py-5
         d-flex
-        justify-content-between
+        justify-content-center
         align-items-center
         flex-wrap
       "
@@ -17,8 +17,9 @@
 
 <script>
 import DiscCard from "./DiscCard.vue";
+
 export default {
-  name: "TheMain",
+  name: "AppMain",
   components: {
     DiscCard,
   },
